@@ -100,7 +100,7 @@ body::after
     color: #fff;
     font-weight: 300;
 }
-.container .card .content a
+.readmore
 {
     position: relative;
     display: inline-block;
@@ -113,3 +113,23 @@ body::after
     font-weight: 500;
     box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
+li
+{
+    list-style: none;
+    justify-content: center;
+    display: flex;
+}
+
+/* fontawesome */
+.fab {font-size: 4em;}
+[class*="fa-twitter"] {color: skyblue;}
+[class*="fa-facebook"] {color: navy;}
+[class*="fa-instagram"] {color: #3d8e95;}
+[class*="fa-github"] {color: #f7ab09;}
+[class*="fa-html5"] {color: #f7ab09;}
+[class*="fa-css3-alt"] {color: #3d8e95;}
+[class*="fa-js-square"] {color: navy;}
+[class*="fa-python"] {color: skyblue;}
+
+
+
